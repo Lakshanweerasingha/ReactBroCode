@@ -18,7 +18,7 @@ const [newTasks, setNewTasks] = useState("")
        const setted = [...tasks];
        [ setted[index] , setted[index -1]] = [setted[index -1], setted[index]]
                 
-                        setTasks(setted)
+        setTasks(setted)
     }}
 
 return (
