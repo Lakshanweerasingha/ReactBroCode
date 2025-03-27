@@ -1,0 +1,22 @@
+.main{
+  font-family:'Courier New', Courier, monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+h1 {
+  background-color: greenyellow;
+}
+
+.parargaph {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: .25s ease;
+
+
+}
